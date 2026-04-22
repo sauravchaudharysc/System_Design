@@ -127,6 +127,7 @@ POST /shows/:showId/booking -> bookingId
  {
    "seatIds": [], 
    "paymentDetails": {}
+  }
 ```
 
 ## 5. High Level Design
