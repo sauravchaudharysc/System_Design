@@ -184,7 +184,7 @@ If the lock is acquired successfully, the service sends the ride request to the 
 
 This ensures that each driver receives only one ride request at a time. All other concurrent ride-matching attempts first check the lock; if a lock already exists for that driver (indicating a pending request), they skip that driver and move on to the next closest available driver.
 
-![image-20260423020842768](/Users/sauravchau/Library/Application Support/typora-user-images/image-20260423020842768.png)
+![image-20260423020842768](7.png)
 
 ### How can we ensure no ride requests are dropped during peak demand periods?
 
